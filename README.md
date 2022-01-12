@@ -2,7 +2,7 @@
 
 This is a minimalist Bitcoin Cash (BCH) wallet for use with front end web apps.
 It's token aware, unlike the wallet the code is forked from: [minimal-bch-wallet](https://github.com/Permissionless-Software-Foundation/minimal-bch-wallet).
-It's intended to be used with the [gatsby-ipfs-web-wallet](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet) web-based wallet, and the [bch-js](https://www.npmjs.com/package/@chris.troutner/bch-js) JavaScript library provided by [FullStack.cash](https://fullstack.cash)
+It's intended to be used with the [gatsby-ipfs-web-wallet](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet) web-based wallet, and the [xrg-js](https://www.npmjs.com/package/@chris.troutner/xrg-js) JavaScript library provided by [FullStack.cash](https://fullstack.cash)
 
 The default derivation path for the wallet keypair is `m/44'/245'/0'/0/0`. This is the BIP44 standard for SLP token-aware BCH wallets.
 
