@@ -7,8 +7,9 @@
 
 "use strict";
 
-const BCHJS = require("@psf/bch-js");
-const crypto = require("crypto-js");
+
+const BCHJS = require('xrg-js')
+const crypto = require('crypto-js')
 
 // Local libraries
 const SendBCH = require("./lib/send-bch");
@@ -24,9 +25,9 @@ class MinimalBCHWallet {
 
     // BEGIN Handle advanced options.
     // HD Derivation path.
-    this.hdPath = this.advancedOptions.hdPath || "m/44'/245'/0'/0/0";
+    this.hdPath = this.advancedOptions.hdPath || "m/44'/2137'/0'/0/0";
 
-    // bch-js options.
+    // xrg-js options.
     const bchjsOptions = {};
     if (this.advancedOptions.restURL) {
       bchjsOptions.restURL = advancedOptions.restURL;
